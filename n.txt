@@ -1,2 +1,4 @@
-1
-2
+git
+ramas
+git branch nombre rama-> crear rama local
+git push origin nombre rama -> publicar rama
