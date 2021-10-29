@@ -5,3 +5,5 @@ git branch nombre_rama -> crear rama local
 git push origin nombre_rama -> subir rama al repo
 
 -------------------------------------------------------------
+
+git status -> ver el estado de los cambios
