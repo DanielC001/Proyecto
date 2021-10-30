@@ -3,7 +3,14 @@ ramas
 git branch -> ver ramas
 git branch nombre_rama -> crear rama local
 git push origin nombre_rama -> subir rama al repo
+git checkout -b nombre de la rama -> cear y cambiar rama simultaniamente
 
 -------------------------------------------------------------
 
+git push -> subir al repo
+git pull -> actualizar los cambios hechos en el repo
+git init -> crear espacio de trabajo local
 git status -> ver el estado de los cambios
+git clone nombre del repo -> clonar repositorio
+
+git merge ->
