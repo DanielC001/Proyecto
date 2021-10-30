@@ -13,4 +13,4 @@ git init -> crear espacio de trabajo local
 git status -> ver el estado de los cambios
 git clone nombre del repo -> clonar repositorio
 
-git merge ->
+git merge nombre de la rama-> unificar ramas
