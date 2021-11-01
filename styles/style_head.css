@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    /*Quitar los puntos*/
+    /*quitar estilos por defecto*/
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    /*elementos uno detras del otro*/
+    justify-content: space-between;
+    /*separacion entre el contenido*/
+    padding: 10px;
+    background-color: rgb(162, 167, 164);
+    border: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+
+.navbar>li {
+    display: flex;
+    align-items: center;
+}
+
+
+/*
+.mainB {
+    background-color: rgb(2, 248, 146);
+    color: white;
+    border: 0px;
+    padding: 10px 5px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+*/
+
+.button {
+    border: 0px;
+    padding: 10px 5px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+.button:hover {
+    /*cambiar cursor al colocarlo sobre el boton*/
+    cursor: pointer;
+    /*aumentar tamaño, escala esta en porcentaje*/
+    transform: scale(1.05);
+}
+
+.mainB {
+    background-color: rgb(2, 248, 146);
+    color: white;
+}
+
+.mainB:hover {
+    /*cambiar cursor al colocarlo sobre el boton*/
+    /*cursor: pointer;*/
+    /*colocar sombra*/
+    box-shadow: 1px 1px green;
+    /*aumentar tamaño, escala esta en porcentaje*/
+    /*transform: scale(1.05);*/
+}
+
+.secondB {
+    background-color: rgb(50, 241, 241);
+    color: white;
+}
+
+.secondB:hover {
+    /*colocar sombra*/
+    box-shadow: 1px 1px rgb(37, 145, 136);
+}
+
+
+/*Buscador*/
+
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 3px;
+    border-radius: 4px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buscar:focus-within {
+    border: 1px solid rgb(2, 248, 146);
+}
+
+.buscar>input {
+    outline: none;
+    border: 0px
+}
+
+.iconlupa:hover {
+    color: rgb(2, 248, 146);
+}
+
+.cont-imagen {
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+
+
+/*solo funciona con display flex*/
+
+.cont-imagen>img {
+    object-fit: contain;
+    width: 100%;
+    border-top-right-radius: 3px;
+}
+
+.cont-imagen {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.lista {
+    display: flex;
+}
+
+.sep {
+    margin: 10px;
+    background-color: aqua;
+    box-shadow: 5px 5px gray;
+}
+
+.text {
+    color: white;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: x-large;
+}

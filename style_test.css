@@ -1,0 +1,103 @@
+/*
+se puede cambiar los estilos mediante la etiqueta de tipo 
+ej:  h1, button, div
+*/
+
+button {
+    background-color: brown;
+    /*color de fondo*/
+    color: white;
+    /*color de letra*/
+}
+
+
+/*usando id, los id deben ser de tipo unico(para buenas practicas)*/
+
+#enviar {
+    background-color: aqua;
+    color: black;
+}
+
+
+/*usando clases,se pueden repetir*/
+
+.parrafoB {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fondoverde {
+    background-color: green;
+}
+
+.contenedorconmargin {
+    margin: 20px;
+    /*(margin)separacion con respecto a los elementos de afuera*/
+    border: 1px solid black;
+    color: blue;
+    padding: 40px;
+    /*(padding)separacion con respecto al propio elemento div*/
+}
+
+.contenedor-divs {
+    border: 2px solid blue;
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 30% 30% 40%;
+}
+
+.cont {
+    border: 1px solid red;
+}
+
+.contf {
+    border: 1px solid red;
+}
+
+.contenedorFlex {
+    border: 2px solid green;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    /*centrar verticalmente*/
+    /*flex-direction: column;*/
+}
+
+
+/*
+font-size:x-large; tamaño de la letra
+font-style: normal; tipo de letra
+font-weight: bold; ancho de la fuente
+font-size: 10px;tamaño de la fuente
+
+height:10px; altura
+width:10px; ancho
+
+*/
+
+
+/*
+jerarquia:
+id,(clase y etiqueta)
+*/
+
+
+/*
+display
+
+display:block -> toma todo el ancho completo
+display grid -> crea una grilla de elementos(filas y columnas)
+
+flex
+
+*/
+
+
+/*
+box-shadow -> sombras
+.clase:hover{
+
+} modificador de clase
+*/
