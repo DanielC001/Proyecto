@@ -1,0 +1,23 @@
+Estilos que se pueden usar
+--------------------------------
+Bootstrap
+- añadir bootstrap con: yarn add bootstrap
+importar como: import 'bootstrap/dist/css/bootstrap.css';
+no se pueden modificar los estilo
+Si se importa en el app.js solo se importa una vez
+---------------------------------
+tailwindcss
+instalacion:
+1. yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest
+2. instalar craco con: yarn add @craco/craco (solo en react)
+3. cambiar del package.json -> e la parte de scripts -> en start,build y build - scripts
+-> react por craco
+4. crear un archivo llamado craco.config.js
+5. ejecutar este comando: npx tailwindcss-cli@latest init
+6. cambiar el archivo de configuracion de tailwindcss
+7.en el app.css agregar : @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+-> como usarlo:
+para el fondo se usa el className: bg-color-intensidad

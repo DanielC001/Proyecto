@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    /*Quitar los puntos*/
+    /*quitar estilos por defecto*/
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    /*elementos uno detras del otro*/
+    justify-content: space-between;
+    /*separacion entre el contenido*/
+    padding: 10px;
+    background-color: rgb(162, 167, 164);
+    border: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+
+.navbar>li {
+    display: flex;
+    align-items: center;
+}
+
+
+/*
+.mainB {
+    background-color: rgb(2, 248, 146);
+    color: white;
+    border: 0px;
+    padding: 10px 5px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+*/
+
+.button {
+    border: 0px;
+    padding: 10px 5px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+.button:hover {
+    /*cambiar cursor al colocarlo sobre el boton*/
+    cursor: pointer;
+    /*aumentar tamaño, escala esta en porcentaje*/
+    transform: scale(1.05);
+}
+
+.mainB {
+    background-color: rgb(2, 248, 146);
+    color: white;
+}
+
+.mainB:hover {
+    /*cambiar cursor al colocarlo sobre el boton*/
+    /*cursor: pointer;*/
+    /*colocar sombra*/
+    box-shadow: 1px 1px green;
+    /*aumentar tamaño, escala esta en porcentaje*/
+    /*transform: scale(1.05);*/
+}
+
+.secondB {
+    background-color: rgb(50, 241, 241);
+    color: white;
+}
+
+.secondB:hover {
+    /*colocar sombra*/
+    box-shadow: 1px 1px rgb(37, 145, 136);
+}
+
+
+/*Buscador*/
+
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 3px;
+    border-radius: 4px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buscar:focus-within {
+    border: 1px solid rgb(2, 248, 146);
+}
+
+.buscar>input {
+    outline: none;
+    border: 0px
+}
+
+.iconlupa:hover {
+    color: rgb(2, 248, 146);
+}
+
+.cont-imagen {
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+
+
+/*solo funciona con display flex*/
+
+.cont-imagen>img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cont-imagen:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+.lista {
+    display: flex;
+    /*flex-direction: column;*/
+    /*flex-wrap: wrap; cuando llegue al final de la pagina, lo coloque abajo */
+}
+
+.sep {
+    margin: 10px;
+    box-shadow: 5px 5px gray;
+    background-color: aqua;
+}
+
+.text {
+    color: white;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+
+/*para el distribuir el espacio (header,main,footer)de la pagina 1*/
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* modificar el scroll*/
+    overflow-y: hidden;
+}
+
+.mainContainer>main {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.mainContainer>footer {
+    padding: 10px;
+    background-color: brown;
+}
