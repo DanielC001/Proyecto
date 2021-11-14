@@ -1,1 +1,5 @@
-1
+Informacion react
+-npx create-react-app nombredelaaplicacion
+-al bajar una aplicacion de github usar npm i para instalar los node_modules
+-npm audit fix (Limpiar paquetes)
+
